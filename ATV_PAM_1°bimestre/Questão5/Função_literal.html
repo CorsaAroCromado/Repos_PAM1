@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de funcões</title>
+</head>
+<body>
+
+  <button onclick="minhaFuncao()">executar função Literal</button>
+	<p id="texto"></p>
+    <script>
+// Função Literal variável
+function minhaFuncao() {
+	minhaFuncaoVariavel();
+}
+var minhaFuncaoVariavel = function() {
+   var cs = document.querySelector("#texto"); 
+	cs.textContent="funcão Literal executada";
+
+}
+
+
+    </script>
+</body>
+</html>
